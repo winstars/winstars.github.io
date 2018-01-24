@@ -1,11 +1,11 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
+title: Sniff Kevin
+subtitle: Travel By the Moon
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+description: Sniff Kevin's Tiny Word's World.
+creator: <a href="http://qiukexu.cn">@winstars</a>
 
-url: "http://vno.onevcat.com"
+url: "http://my.qiukexu.cn"
 
 permalink: /:year/:month/:title/
 
@@ -32,16 +32,16 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: winstars
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
+    weibo: winstars
+    github: winstars
+    twitter: winstars
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: winstars@qiukexu.cn
 
 # Google Analytics
 ga:
