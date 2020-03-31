@@ -1,4 +1,334 @@
-<!DOCTYPE html><html lang="zh-cn"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content=""><meta name="keywords"><meta name="author" content="Sniff Kevin"><meta name="copyright" content="Sniff Kevin"><meta name="theme-color" content="#0078E7"><title>Hexo</title><link rel="shortcut icon" href="/yun-favicon.ico"><link rel="preload" href="/js/ui/banner.js" as="script"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script id="yun-config">
-    let Yun = window.Yun || {};
-    let CONFIG = {"root":"/","title":"云游君的小站","version":"0.3.1","anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
-  </script><script src="//at.alicdn.com/t/font_1140697_pa6cswvjpq.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><meta name="generator" content="Hexo 4.2.0"></head><body class="is-home"><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle sidebar-toggle-fixed hty-icon-button"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><aside class="sidebar"><div class="sidebar-panel sidebar-panel-active" id="site-overview-wrap"><div class="site-info"><a class="site-author-avatar" href="/about" title="Sniff Kevin"><img loading="lazy" src="/Yun.png" alt="Sniff Kevin"></a><div class="site-author-name"><a href="/about">Sniff Kevin</a></div><a class="site-name" href="/about/site.html">Hexo</a><sub class="site-subtitle"></sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item site-state-posts"><a href="/archives" title="Archives"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">18</span></a></div><div class="site-state-item site-state-categories"><a href="/categories" title="Categories"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">7</span></a></div><div class="site-state-item site-state-tags"><a href="/tags" title="Tags"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">17</span></a></div><a class="site-state-item hty-icon-button" href="https://github.com/YunYouJun/yunyoujun.github.io/issues/96" target="_blank" rel="noopener" title="reward.comment"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=910426929&amp;site=qq&amp;menu=yes" title="QQ" target="_blank" style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/YunYouJun" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:me@yunyoujun.cn" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://weibo.com/jizhideyunyoujun" title="微博" target="_blank" style="color:#E6162D"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.douban.com/people/yunyoujun/" title="豆瓣" target="_blank" style="color:#007722"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-douban-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/user/home?id=247102977" title="网易云音乐" target="_blank" style="color:#C20C0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.zhihu.com/people/yunyoujun/" title="知乎" target="_blank" style="color:#0084FF"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/1579790" title="哔哩哔哩" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.popiask.cn/elpsycn" title="POPI" target="_blank" style="color:#525252"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-questionnaire-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg" title="微信公众号" target="_blank" style="color:#1AAD19"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat-2-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/YunYouJun" title="Twitter" target="_blank" style="color:#1da1f2"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-twitter-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/YunYouJun" title="Telegram" target="_blank" style="color:#0088CC"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-telegram-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/elpsycn" title="Telegram Channel" target="_blank" style="color:#0088CC"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-telegram-fill"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.now.sh/" title="Travelling" target="_blank" style="color:black"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-send-plane-2-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div></div></aside><main class="sidebar-translate" id="content"><div class="banner"><div class="banner-line vertical-line-top"></div><div class="banner-line vertical-line-bottom"></div></div><script src="/js/ui/banner.js"></script><div id="say"><span id="say-content"></span><small id="say-author"></small><small id="say-from"></small></div><script async src="/js/say.js"></script><section class="hty-layout-grid" id="recent-posts"><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2020/03/31/hello-world/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/03/31/hello-world/">Hello World</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2020-03-31 16:40:26" itemprop="dateCreated datePublished" datetime="2020-03-31T16:40:26+08:00">2020-03-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/10/31/20141031/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/10/31/20141031/">apache ldap api使用过程中的一些问题</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-10-31 08:00:00" itemprop="dateCreated datePublished" datetime="2014-10-31T08:00:00+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E6%8A%80%E6%9C%AF/"><span itemprop="text">技术</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/ldap/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">ldap</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/08/27/20140827-2/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/08/27/20140827-2/">也谈教育与学习（杂记）</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-08-27 08:00:00" itemprop="dateCreated datePublished" datetime="2014-08-27T08:00:00+08:00">2014-08-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:06" itemprop="dateModified" datetime="2014-10-31T16:38:06+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E8%AE%B0%E4%BA%8B/"><span itemprop="text">记事</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/%E5%AD%A6%E4%B9%A0/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">学习</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/08/27/20140827/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/08/27/20140827/">处理Sharepoint 2013部署后出现“标识无效”的特殊情形</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-08-27 08:00:00" itemprop="dateCreated datePublished" datetime="2014-08-27T08:00:00+08:00">2014-08-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:06" itemprop="dateModified" datetime="2014-10-31T16:38:06+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E6%8A%80%E6%9C%AF/"><span itemprop="text">技术</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/Sharepoint/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Sharepoint</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/08/27/20140827-1/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/08/27/20140827-1/">解决IE11在打开OfficeWebapp时操作不正常的故障</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-08-27 08:00:00" itemprop="dateCreated datePublished" datetime="2014-08-27T08:00:00+08:00">2014-08-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:05" itemprop="dateModified" datetime="2014-10-31T16:38:05+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E6%8A%80%E6%9C%AF/"><span itemprop="text">技术</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/Sharepoint/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Sharepoint</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/05/06/20140506/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/05/06/20140506/">关于国际金融的摘记</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-05-06 08:00:00" itemprop="dateCreated datePublished" datetime="2014-05-06T08:00:00+08:00">2014-05-06</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:05" itemprop="dateModified" datetime="2014-10-31T16:38:05+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E9%87%91%E8%9E%8D/"><span itemprop="text">金融</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">国际金融</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/04/30/20140430/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/04/30/20140430/">随便说说Swing</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-04-30 08:00:00" itemprop="dateCreated datePublished" datetime="2014-04-30T08:00:00+08:00">2014-04-30</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:04" itemprop="dateModified" datetime="2014-10-31T16:38:04+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E6%8A%80%E6%9C%AF/"><span itemprop="text">技术</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/Swing/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Swing</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/03/31/20140331/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/03/31/20140331/">关于《房产税》的笔记（二）</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-03-31 08:00:00" itemprop="dateCreated datePublished" datetime="2014-03-31T08:00:00+08:00">2014-03-31</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:04" itemprop="dateModified" datetime="2014-10-31T16:38:04+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"><span itemprop="text">读书笔记</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/%E6%88%BF%E4%BA%A7%E7%A8%8E/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">房产税</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/03/24/20140324/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/03/24/20140324/">2002-2012宁波市住宅竣工面积及商品住宅竣工套数</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-03-24 08:00:00" itemprop="dateCreated datePublished" datetime="2014-03-24T08:00:00+08:00">2014-03-24</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:03" itemprop="dateModified" datetime="2014-10-31T16:38:03+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E7%BB%9F%E8%AE%A1/"><span itemprop="text">统计</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/%E4%BD%8F%E5%AE%85/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">住宅</span></a><a class="tag" href="/tags/%E5%95%86%E5%93%81%E6%88%BF/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">商品房</span></a><a class="tag" href="/tags/%E7%AB%A3%E5%B7%A5/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">竣工</span></a></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="http://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://my.ifor.bid/2014/03/21/20140321/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Sniff Kevin"><meta itemprop="description" content=""></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><div class="post-card-header"><div class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2014/03/21/20140321/">关于早晨</a></h2><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2014-03-21 08:00:00" itemprop="dateCreated datePublished" datetime="2014-03-21T08:00:00+08:00">2014-03-21</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2014-10-31 16:38:03" itemprop="dateModified" datetime="2014-10-31T16:38:03+08:00">2014-10-31</time></span></div></div></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> <a class="category" href="/categories/%E8%AE%B0%E4%BA%8B/"><span itemprop="text">记事</span></a></div><div class="post-card-tag"><a class="tag" href="/tags/%E5%85%AC%E4%BA%A4%E8%BD%A6/"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">公交车</span></a></div></div></article></div></section><nav class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><svg class="icon"><use xlink:href="#icon-arrow-right-s-line" aria-label="Next"></use></svg></a></nav></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2020 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> Sniff Kevin</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v4.2.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v0.3.1</span></div></footer><a class="hty-icon-button" id="goUp" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg></a></div><script defer src="/js/utils.js"></script><script defer src="/js/hexo-theme-yun.js"></script></body></html>
+
+<!DOCTYPE html>
+<html lang="zh-cn" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hexo</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    
+    <meta name="author" content="Sniff Kevin"> 
+    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Hexo</span>
+    <div id="loader"></div>
+    <div class="nav">
+    <ul id="menu-menu" class="menu">
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
+        </li>
+        
+    </ul>
+	<span class="target"></span>
+	<center>
+	<div class="hitokoto">
+		<span class="typed" id="hitokoto" data-st="true"></span>
+	</div>
+	</center>
+	
+	<p class="footerlinks">
+		<a href="#" class="iconfont icon-null"></a>
+		
+            <a href="/" title="facebook" class="iconfont icon-facebook" target="_blank" rel="noopener"> </a>
+        
+            <a href="/" title="twitter" class="iconfont icon-twitter" target="_blank" rel="noopener"> </a>
+        
+            <a href="/" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
+        
+            <a href="/img/logo.png" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
+        
+            <a href="mailto:xxxx@gmail.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
+        
+		<a href="#" class="iconfont icon-null"></a>
+	</p>
+	
+    <p id="copyright">
+        &copy; 2020 Sniff Kevin.
+        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a> by Fechin
+		
+		<span> | </span><a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">冀ICP备xxxxxxx号</a>
+		
+    </p>
+</div>
+
+<div id="container">
+    
+<div id="screen">
+    <div id="mark">
+        <div class="layer" data-depth="0.4">
+            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
+        </div>
+    </div>
+    <div id="vibrant">
+        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
+            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
+        </svg>
+        <div></div>
+    </div>
+    <div id="header">
+        <div>
+            <a class="image-logo" href="/"></a>
+			
+            <div class="iconfont icon-menu switchmenu"></div>
+        </div>
+    </div>
+    
+    <div id="post0">
+        <p>三月 31, 2020</p>
+        <h2><a href="/2020/03/31/hello-world/" title="Hello World" class="posttitle">Hello World</a></h2>
+        <p class="summary">Welcome to Hexo! This is your very first post. Check docu...</p>
+    </div>
+    
+</div>
+
+    <div id="primary">
+        
+<div class="post">
+    <a href="/2014/10/31/20141031/" title="apache ldap api使用过程中的一些问题">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>十月 31, 2014</p>
+        <h3><a href="/2014/10/31/20141031/" title="apache ldap api使用过程中的一些问题" class="posttitle">apache ldap api使用过程中的一些问题</a></h3>
+        <p>问题描述：通过Apache Ldap Api操作Active Directory添加用户，代码如下：
+DefaultEntry entry = new D...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/08/27/20140827-2/" title="也谈教育与学习（杂记）">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>八月 27, 2014</p>
+        <h3><a href="/2014/08/27/20140827-2/" title="也谈教育与学习（杂记）" class="posttitle">也谈教育与学习（杂记）</a></h3>
+        <p>以我这刚过而立的年纪来谈教育，本就荒唐，所以以下大多是一些摘抄，偶尔有几句自己的见解。
+诚然，学习是教育的一个重要组成部分，教育不全然是学习，事实上差距甚...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/08/27/20140827/" title="处理Sharepoint 2013部署后出现“标识无效”的特殊情形">
+        <img src="/img/cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>八月 27, 2014</p>
+        <h3><a href="/2014/08/27/20140827/" title="处理Sharepoint 2013部署后出现“标识无效”的特殊情形" class="posttitle">处理Sharepoint 2013部署后出现“标识无效”的特殊情形</a></h3>
+        <p>某日应领导的要求开始研究在单位部署Sharepoint2013，按照这篇博文的步骤和细节安装完之后，打开Sharepoint管理控制台(以下称SP)却发现...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/08/27/20140827-1/" title="解决IE11在打开OfficeWebapp时操作不正常的故障">
+        <img src="/img/cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>八月 27, 2014</p>
+        <h3><a href="/2014/08/27/20140827-1/" title="解决IE11在打开OfficeWebapp时操作不正常的故障" class="posttitle">解决IE11在打开OfficeWebapp时操作不正常的故障</a></h3>
+        <p>用IE11打开Office Webapp时，按钮各种无响应，点击无反应，改成兼容模式也没有用。原因在于header文件存在问题。将
+C:\Program ...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/05/06/20140506/" title="关于国际金融的摘记">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>五月 06, 2014</p>
+        <h3><a href="/2014/05/06/20140506/" title="关于国际金融的摘记" class="posttitle">关于国际金融的摘记</a></h3>
+        <p>财政当局和货币当局在国际收支背景和国内经济状况下通常的政策和手段：
+
+
+国际收支顺差国际收支逆差
+
+
+国内经济膨胀财政紧缩财政紧缩
+
+
+货币扩张 货币紧缩...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/04/30/20140430/" title="随便说说Swing">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>四月 30, 2014</p>
+        <h3><a href="/2014/04/30/20140430/" title="随便说说Swing" class="posttitle">随便说说Swing</a></h3>
+        <p>4月最后一天，报个到，交个账，刷刷存在感。
+最近给单位写一个汇总程序，汇总条件挺多，挺烦的。以前紧赶慢赶，写个程序只要能用就行了嘛，也就没有考虑太多，当时...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/03/31/20140331/" title="关于《房产税》的笔记（二）">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>三月 31, 2014</p>
+        <h3><a href="/2014/03/31/20140331/" title="关于《房产税》的笔记（二）" class="posttitle">关于《房产税》的笔记（二）</a></h3>
+        <p>来补欠账。
+上次说到税制改革，公众呼吁，税制改革，必须以不增加税负为底线，不然就是加税，这是显而易见的嘛，你满口说改革，要调节二次分配，结果老百姓多交税了...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/03/24/20140324/" title="2002-2012宁波市住宅竣工面积及商品住宅竣工套数">
+        <img src="/img/cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>三月 24, 2014</p>
+        <h3><a href="/2014/03/24/20140324/" title="2002-2012宁波市住宅竣工面积及商品住宅竣工套数" class="posttitle">2002-2012宁波市住宅竣工面积及商品住宅竣工套数</a></h3>
+        <p>
+
+来源报告期住宅竣工面积（平方米）商品住宅竣工套数（套）
+
+
+宁波市统计年鉴20032002345641729151
+
+
+宁波市统计年鉴20042003...</p>
+    </div>
+</div>
+
+
+<div class="post">
+    <a href="/2014/03/21/20140321/" title="关于早晨">
+        <img src="/img/welcome-cover.jpg" class="cover" width="680" height="440">
+    </a>
+    <div class="else">
+        <p>三月 21, 2014</p>
+        <h3><a href="/2014/03/21/20140321/" title="关于早晨" class="posttitle">关于早晨</a></h3>
+        <p>大清早的就让我火大！尼玛劳资在东门口站等了足足15分钟，三条线公交车一辆都没来，你们都是死光了吗？还是早上喝酒出车祸了？还是老婆半路要生了？MB的，害的老...</p>
+    </div>
+</div>
+
+
+    </div>
+    
+    <div id="pager"><a href="/page/2/" class="more">加载更多</a></div>
+    
+</div>
+<div id="preview"></div>
+
+
+
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
