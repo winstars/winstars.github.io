@@ -7,13 +7,13 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Sniff Kevin
+language: zh-cn
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://my.ifor.bid
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,8 +99,11 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: https://github.com/winstars/winstars.github.io
-  branch: hexo-yun
+- type: 'git'
+  repo: git@github.com:winstars/winstars.github.io
+  branch: hexo-yun-public
   message: Update to hexo-yun branch with Empty Content
-
+- type: 'git'
+  repo: git@github.com:winstars/winstars.github.io
+  branch: master
+  message: Update to hexo-yun branch with Empty Content
